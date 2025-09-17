@@ -186,28 +186,7 @@ code {
 
 
 
-/* Glowing orb animation circling the badge */
-.hero-title-badge {
-  position: relative;
-}
-.hero-title-badge .glow-orb {
-  position: absolute;
-  width: 8px; height: 8px;
-  background: radial-gradient(circle, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.2) 70%, rgba(255,255,255,0) 100%),
-              radial-gradient(circle, rgba(10, 37, 64, 0.8) 0%, rgba(10, 37, 64, 0.1) 70%, rgba(10, 37, 64, 0) 100%);
-  border-radius: 9999px;
-  box-shadow: 0 0 10px rgba(10, 37, 64, 0.35), 0 0 20px rgba(10, 37, 64, 0.25);
-  pointer-events: none;
-  animation: orbit 3.2s linear infinite;
-  transform-origin: center;
-}
-@keyframes orbit {
-  0%   { transform: translate(-50%, -50%) rotate(0deg)   translateX(80%) translateY(-110%); }
-  25%  { transform: translate(-50%, -50%) rotate(90deg)  translateX(80%) translateY(-110%); }
-  50%  { transform: translate(-50%, -50%) rotate(180deg) translateX(80%) translateY(-110%); }
-  75%  { transform: translate(-50%, -50%) rotate(270deg) translateX(80%) translateY(-110%); }
-  100% { transform: translate(-50%, -50%) rotate(360deg) translateX(80%) translateY(-110%); }
-}
+
 
 /* ---- TrustMetrics animations ---- */
 @keyframes tm-pulse-soft {
