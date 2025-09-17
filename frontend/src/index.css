@@ -272,13 +272,13 @@ code {
     /* White text glow for readability */
     0 1px 3px rgba(255, 255, 255, 0.9),
     0 2px 6px rgba(0, 0, 0, 0.3),
-    /* Thin neon glow effect for text only */
-    0 0 3px rgba(0, 255, 255, 0.5),
-    0 0 6px rgba(0, 255, 255, 0.35),
-    0 0 9px rgba(0, 255, 255, 0.25),
-    0 0 12px rgba(0, 255, 255, 0.15),
-    0 0 15px rgba(57, 255, 255, 0.1),
-    0 0 18px rgba(138, 43, 226, 0.08);
+    /* Bright thin neon glow effect for text only */
+    0 0 3px rgba(0, 255, 255, 0.9),
+    0 0 6px rgba(0, 255, 255, 0.7),
+    0 0 9px rgba(0, 255, 255, 0.5),
+    0 0 12px rgba(0, 255, 255, 0.35),
+    0 0 15px rgba(57, 255, 255, 0.25),
+    0 0 18px rgba(138, 43, 226, 0.2);
   animation: text-neon-glow 3s ease-in-out infinite alternate;
 }
 
@@ -287,23 +287,23 @@ code {
     text-shadow: 
       0 1px 3px rgba(255, 255, 255, 0.9),
       0 2px 6px rgba(0, 0, 0, 0.3),
-      0 0 3px rgba(0, 255, 255, 0.5),
-      0 0 6px rgba(0, 255, 255, 0.35),
-      0 0 9px rgba(0, 255, 255, 0.25),
-      0 0 12px rgba(0, 255, 255, 0.15),
-      0 0 15px rgba(57, 255, 255, 0.1),
-      0 0 18px rgba(138, 43, 226, 0.08);
+      0 0 3px rgba(0, 255, 255, 0.9),
+      0 0 6px rgba(0, 255, 255, 0.7),
+      0 0 9px rgba(0, 255, 255, 0.5),
+      0 0 12px rgba(0, 255, 255, 0.35),
+      0 0 15px rgba(57, 255, 255, 0.25),
+      0 0 18px rgba(138, 43, 226, 0.2);
   }
   100% {
     text-shadow: 
       0 1px 3px rgba(255, 255, 255, 0.9),
       0 2px 6px rgba(0, 0, 0, 0.3),
-      0 0 4px rgba(0, 255, 255, 0.65),
-      0 0 8px rgba(0, 255, 255, 0.45),
-      0 0 12px rgba(0, 255, 255, 0.3),
-      0 0 16px rgba(0, 255, 255, 0.2),
-      0 0 20px rgba(57, 255, 255, 0.15),
-      0 0 24px rgba(138, 43, 226, 0.1);
+      0 0 4px rgba(0, 255, 255, 1),
+      0 0 8px rgba(0, 255, 255, 0.85),
+      0 0 12px rgba(0, 255, 255, 0.65),
+      0 0 16px rgba(0, 255, 255, 0.45),
+      0 0 20px rgba(57, 255, 255, 0.35),
+      0 0 24px rgba(138, 43, 226, 0.25);
   }
 }
 
